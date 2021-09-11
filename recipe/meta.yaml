@@ -1,5 +1,5 @@
 {% set name = "objectgraph" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/objectgraph-{{ version }}.tar.gz
-  sha256: b26201c2213bbbfa3f18c8ff4fd14d744f0eb043a326dbe8f3d0c7a5db7f50cc
+  sha256: 4f214c1d72c1dd1c2122b1d7b3348169834e99bb88aab0a4e1de2bfd01316451
 
 build:
   number: 0
